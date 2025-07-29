@@ -1,0 +1,23 @@
+.about-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.about-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #007bff;
+}
+
+.about-container p {
+    font-size: 1.2rem;
+    text-align: justify;
+}

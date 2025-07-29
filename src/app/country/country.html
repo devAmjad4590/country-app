@@ -1,0 +1,17 @@
+<div class="back-button">
+    <button (click)="goBack()">&larr; Back</button>
+</div>
+<app-loading *ngIf="loading()"></app-loading>
+<div class="country-container" *ngIf="!loading()">
+    <div class="country-header">
+        <img [src]="country()?.flags?.png" alt="Flag of {{country()?.name?.common}}" class="country-flag">
+        <h2 class="country-title">{{country()?.name?.common}}</h2>
+    </div>
+    <div class="country-details">
+        <p><strong>Capital:</strong> {{country()?.capital?.[0]}}</p>
+        <p><strong>Population:</strong> {{country()?.population | number}}</p>
+        <p><strong>Region:</strong> {{country()?.region}}</p>
+        <p><strong>Subregion:</strong> {{country()?.subregion}}</p>
+        <p><strong>Area:</strong> {{country()?.area | number}} km²</p>
+    </div>
+</div>

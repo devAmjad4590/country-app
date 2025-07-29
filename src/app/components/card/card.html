@@ -1,0 +1,6 @@
+<div class="card">
+    <img src="{{country().flags.png}}" alt="">
+    <h3>Title: {{country().name.common.toString() | titlecase}}</h3>
+    <h4>Capital: {{country().capital.toString()| titlecase}}</h4>
+    <h4>Population: {{country().population | number}}</h4>
+</div>
