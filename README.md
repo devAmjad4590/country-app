@@ -109,7 +109,3 @@ This page explains the purpose of the application and the technologies used.
 - Managing state and handling asynchronous data with RxJS.
 - Styling applications using SCSS.
 - Making HTTP client requests to fetch and display data.
-
-## License
-
-This project is licensed under the MIT License.
